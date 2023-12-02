@@ -1,0 +1,16 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "2023 Day 1 Stage 1",
+            "program": "${workspaceFolder}/2023/day1/stage1/target/debug/stage1.exe",
+            "args": [],
+            "cwd": "${workspaceFolder}/2023/day1/stage1"
+        }
+    ]
+}

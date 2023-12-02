@@ -1,0 +1,27 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+        "label": "build",
+        "type": "shell",
+        "command": "cargo build",
+        "options": {
+            "cwd": "${workspaceFolder}/${input:project}"
+        }, 
+        "problemMatcher": [
+            "$rustc"
+        ]
+    }
+  ],
+  "inputs": [
+    {
+      "id": "project",
+      "type": "pickString",
+      "description": "Which project?",
+      "options": [
+        {"label": "2023 Day 1 Stage 1", "value": "2023/day1/stage1" },
+        {"label": "2023 Day 1 Stage 2", "value": "2023/day1/stage2" },
+      ]
+    }
+  ]
+}
