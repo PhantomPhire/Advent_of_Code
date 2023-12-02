@@ -11,6 +11,14 @@
             "program": "${workspaceFolder}/2023/day1/stage1/target/debug/stage1.exe",
             "args": [],
             "cwd": "${workspaceFolder}/2023/day1/stage1"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "2023 Day 1 Stage 2",
+            "program": "${workspaceFolder}/2023/day1/stage2/target/debug/stage2.exe",
+            "args": [],
+            "cwd": "${workspaceFolder}/2023/day1/stage2"
         }
     ]
 }
