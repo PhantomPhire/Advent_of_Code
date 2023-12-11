@@ -7,5 +7,6 @@
         ".\\2023\\day3\\stage1\\Cargo.toml",
         ".\\2023\\day3\\stage2\\Cargo.toml",
         ".\\2023\\day4\\stage1\\Cargo.toml",
+        ".\\2023\\day4\\stage2\\Cargo.toml",
     ]
 }
